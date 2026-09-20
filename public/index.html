@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>InstaKuku — Download Public Instagram Reels</title>
+  <meta name="description" content="Download public Instagram Reels you own or have permission to save. No login required. Preview the Reel and choose an available quality.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#ead0d4">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"InstaKuku","applicationCategory":"MultimediaApplication","operatingSystem":"Any","description":"A public Instagram Reel downloader for content the user owns or has permission to save."}</script>
+</head>
+<body class="home-page">
+  <header class="site-header" id="top">
+    <a class="wordmark" href="/" aria-label="InstaKuku home"><span class="mark" aria-hidden="true">K</span><span>InstaKuku</span></a>
+    <nav class="floating-nav" aria-label="Main navigation">
+      <a class="active" href="#download">Download</a>
+      <a href="#guides">Guides</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <button class="menu-dot" type="button" data-menu aria-label="Open menu"><span></span><span></span></button>
+    <div class="mobile-menu" data-mobile-menu>
+      <a href="#download">Downloader</a><a href="#guides">Guides</a><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="cinema-hero" id="download">
+      <canvas id="fiberCanvas" aria-hidden="true"></canvas>
+      <div class="ambient-grain" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <span class="mini-label">PUBLIC REEL DOWNLOADER</span>
+        <h1>Save the reel.<br><span>Keep the feeling.</span></h1>
+        <p>Paste a public Instagram Reel link. Preview it, then choose an available quality — without entering your Instagram password.</p>
+      </div>
+
+      <div class="hero-index" aria-hidden="true">
+        <span>01 / PUBLIC</span>
+        <span>02 / PREVIEW</span>
+        <span>03 / SAVE</span>
+      </div>
+
+      <div class="object-label object-label-a" aria-hidden="true">HD MEDIA</div>
+      <div class="object-label object-label-b" aria-hidden="true">NO LOGIN</div>
+      <div class="object-label object-label-c" aria-hidden="true">FAST FLOW</div>
+
+      <div class="download-dock">
+        <form id="downloadForm" class="dock-form">
+          <div class="url-field-wrap">
+            <span class="link-icon" aria-hidden="true">↗</span>
+            <input id="reelUrl" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="Paste Instagram Reel link" aria-label="Instagram Reel URL" required>
+            <button id="pasteBtn" class="paste-inline" type="button">Paste</button>
+          </div>
+          <button class="go-button" type="submit" aria-label="Analyze Reel"><span>Analyze</span><b aria-hidden="true">→</b></button>
+        </form>
+        <div class="dock-meta">
+          <span id="status" aria-live="polite">Public Reels only · Content you own or have permission to save</span>
+          <a href="/copyright.html">Usage policy</a>
+        </div>
+        <div id="result" class="result-panel" aria-live="polite">
+          <div class="result-media"><img data-thumb alt="Instagram Reel preview"></div>
+          <div class="result-info">
+            <div class="result-kicker">REEL READY</div>
+            <div class="result-title" data-title>Instagram Reel</div>
+            <div class="result-meta" data-meta></div>
+            <div class="qualities" data-qualities></div>
+          </div>
+          <button class="result-close" type="button" data-result-close aria-label="Close preview">×</button>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#intro"><span>Scroll to explore</span><i></i></a>
+    </section>
+
+    <section class="editorial-section" id="intro">
+      <div class="editorial-grid">
+        <div class="section-kicker">INSTA KUKU / 2026</div>
+        <div class="editorial-title"><h2>Built for creators who want a cleaner way to save their own public Reels.</h2></div>
+        <div class="editorial-note"><p>The tool stays simple: copy a public Reel URL, analyze it, preview the available media and save a version that Instagram exposes publicly.</p></div>
+      </div>
+      <div class="line-divider"></div>
+      <div class="process-grid">
+        <article><span>01</span><h3>Copy the public Reel link</h3><p>Use Instagram's share menu and copy the URL of a Reel that is publicly accessible.</p></article>
+        <article><span>02</span><h3>Analyze the media</h3><p>InstaKuku checks the link and returns a preview plus the formats the source makes available.</p></article>
+        <article><span>03</span><h3>Choose your quality</h3><p>Pick an available MP4 option. The tool cannot create resolution higher than the source.</p></article>
+        <article><span>04</span><h3>Use it responsibly</h3><p>Downloading does not transfer copyright. Save your own media or content you have permission to use.</p></article>
+      </div>
+    </section>
+
+    <section class="visual-break" aria-hidden="true">
+      <div class="ribbon-core"><div></div><div></div><div></div><div></div><div></div><div></div><span></span></div>
+      <p>PUBLIC MEDIA / CLEAN WORKFLOW / RESPONSIBLE USE</p>
+    </section>
+
+    <section class="guides-section" id="guides">
+      <div class="guides-head"><span>Knowledge base</span><h2>Useful beyond the download button.</h2><p>Guides explain quality, creator backups and copyright basics. They also give the site real informational value instead of being a thin one-purpose page.</p></div>
+      <div class="guide-grid">
+        <a class="guide-card" href="/articles/save-your-own-reels.html"><span class="guide-no">01</span><small>CREATOR GUIDE</small><h3>How to save your own Instagram Reels without losing quality</h3><p>Archive workflows, original exports and practical backup habits.</p><b>Read guide ↗</b></a>
+        <a class="guide-card" href="/articles/reel-copyright-guide.html"><span class="guide-no">02</span><small>COPYRIGHT</small><h3>When is it okay to download or reuse an Instagram Reel?</h3><p>A plain-language look at ownership, permission and reposting.</p><b>Read guide ↗</b></a>
+        <a class="guide-card" href="/articles/reel-quality-guide.html"><span class="guide-no">03</span><small>VIDEO QUALITY</small><h3>Why Instagram Reel quality changes after upload</h3><p>Resolution, re-encoding and why a saved copy can differ from the original.</p><b>Read guide ↗</b></a>
+        <a class="guide-card utility-card" href="/how-it-works.html"><span class="guide-no">04</span><small>HOW IT WORKS</small><h3>What InstaKuku can — and cannot — access</h3><p>Public URLs only. No private-account bypass and no Instagram password collection.</p><b>Learn more ↗</b></a>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <div class="faq-title"><span>FAQ</span><h2>Before you save a Reel.</h2></div>
+      <div class="faq-list">
+        <details><summary>Does InstaKuku work with private Reels?<b>+</b></summary><p>No. It is limited to publicly accessible Reel URLs and does not bypass private-account restrictions.</p></details>
+        <details><summary>Do I need to log in to Instagram?<b>+</b></summary><p>No Instagram username or password is requested by this site.</p></details>
+        <details><summary>Why can a public Reel sometimes fail?<b>+</b></summary><p>Instagram can rate-limit or block automated requests from hosting-provider IP addresses. A Reel can be public in the app and still be temporarily inaccessible to the server.</p></details>
+        <details><summary>Can I repost anything I download?<b>+</b></summary><p>No. Downloading a file does not grant copyright or reposting rights. Use content you own or have permission to reuse.</p></details>
+        <details><summary>Do policy pages guarantee AdSense approval?<b>+</b></summary><p>No. Approval depends on the whole site, including original value, policy compliance, navigation, content depth and traffic quality.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="wordmark" href="/"><span class="mark">K</span><span>InstaKuku</span></a><p>Save public Reels you are authorized to download.</p><a class="back-top" href="#top">Back to top ↑</a></div>
+    <div class="footer-links"><div><b>Tool</b><a href="/">Downloader</a><a href="/how-it-works.html">How it works</a><a href="/blog.html">Guides</a></div><div><b>Company</b><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/disclaimer.html">Disclaimer</a></div><div><b>Legal</b><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/copyright.html">Copyright</a></div></div>
+    <div class="footer-bottom"><span>© 2026 InstaKuku</span><span>Not affiliated with Instagram or Meta Platforms, Inc.</span></div>
+  </footer>
+
+  <script src="/assets/hero-canvas.js" defer></script>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
